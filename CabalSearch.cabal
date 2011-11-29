@@ -15,7 +15,7 @@ build-type:     Simple
 synopsis:
         Search cabal packages by name
 description:
-        This tool can build an index of cabal packages and search through them by them.
+        This tool can build an index of cabal packages and search through them by name.
         It acts as a 'cabal list' replacement.
 
 executable cabalsearch
