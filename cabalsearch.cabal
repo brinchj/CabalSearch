@@ -2,7 +2,7 @@ name:           CabalSearch
 version:        0.0.1
 license:        BSD3
 license-file:   LICENSE
-category:
+category:       Utils
 copyright:      Copyright 2011 Johan Brinch
 author:         Johan Brinch <brinchj@gmail.com>
 maintainer:     Johan Brinch <brinchj@gmail.com>
