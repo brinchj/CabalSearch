@@ -23,6 +23,7 @@ description:
 
 executable cabalsearch
     main-is: Main.hs
+    other-modules: CabalIndex
 
     build-depends:
         base == 4.*,
