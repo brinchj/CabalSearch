@@ -10,13 +10,16 @@ stability:      experimental
 tested-with:    GHC == 6.12.3
 cabal-version:  >= 1.8
 homepage:       http://github.com/brinchj/cabalsearch
-bug-reports:    http://github.com/brinchj/cabalsearch/ssues
+bug-reports:    http://github.com/brinchj/cabalsearch/issues
 build-type:     Simple
 synopsis:
         Search cabal packages by name
 description:
-        This tool can build an index of cabal packages and search through them by name.
-        It acts as a 'cabal list' replacement.
+
+        CabalSearch builds an index of cabal packages and search through them by
+        name. It acts as a 'cabal list' replacement. To get started, install the
+        package and run: @cabalsearch --rebuild@. Now try it out with a query:
+        @cabalsearch cabal@.
 
 executable cabalsearch
     main-is: Main.hs
